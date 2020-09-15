@@ -1,7 +1,6 @@
 # git
 # Git documents
 
-Should know first: 
 ## this project name is `git` and the username is `gitoption`
 
 ***
