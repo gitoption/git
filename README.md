@@ -3,7 +3,7 @@ git documents
 
 ***
 ```diff
-+ ## Clone a project from the github
+## + Clone a project from the github
 ```
 `git clone https://github.com/githubusername/projectname.git`
 
