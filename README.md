@@ -23,3 +23,16 @@ Example add of this project url
 ## Remove remote url from the local machine
 
 `git remote remove origin`
+
+If you want to add another remote url, at first you need to remove the current remote url then to add new url
+
+## Add any changes including files, folders and codes
+`git add --all`
+
+## Commit all changes 
+`git commit -m 'your commit message here'`
+
+## Push your source code to the github
+`git push origin master` also `git push -u origin master`
+
+This will push your code to the github project master branch
