@@ -2,9 +2,9 @@
 git documents
 
 ***
-
-## Clone a project from the github
-
+```diff
++ ## Clone a project from the github
+```
 `git clone https://github.com/githubusername/projectname.git`
 
 Example clone of the this project:
