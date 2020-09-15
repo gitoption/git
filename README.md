@@ -33,7 +33,7 @@ If you want to add another remote url, at first you need to remove the current r
 `git commit -m 'your commit message here'`
 
 ## Push your source code to the github
-This will push the source codes on the current branch : `git push`
+`git push` (This will push the source codes on the current branch)
 
-This will push the source codes to the master branch: `git push origin master`
+`git push origin master` (This will push the source codes to the master branch)
 also `git push -u origin master`
