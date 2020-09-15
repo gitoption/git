@@ -7,7 +7,7 @@ git documents
 
 `git clone https://github.com/githubusername/projectname.git`
 
-Example clone of the this project:
+Example clone of the this project:(here username is gitoption and project name is git)
 
 `git clone https://github.com/gitoption/git.git`
 
