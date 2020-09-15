@@ -1,5 +1,7 @@
 # git
-git documents
+# git documents
+
+## Should know first: this project name is `git` and the username is `gitoption`
 
 ***
 
@@ -7,7 +9,7 @@ git documents
 
 `git clone https://github.com/githubusername/projectname.git`
 
-Example clone of the this project:(here username is gitoption and project name is git)
+Example clone of the this project:
 
 `git clone https://github.com/gitoption/git.git`
 
