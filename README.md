@@ -9,6 +9,5 @@ git documents
 
 Example clone of the this project:
 
-```diff
-+ `git clone https://github.com/gitoption/git.git`
-```
+`git clone https://github.com/gitoption/git.git`
+
