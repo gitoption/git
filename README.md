@@ -46,6 +46,6 @@ First save unsaved work or close and reopen the file, then use this command
 
 Then use `git pull`
 
-## Force to push your code if you think it's ok but it is refusing to push 
+## Force to push your code if you think it's ok but it is refusing
 
 `git push -f origin master`
