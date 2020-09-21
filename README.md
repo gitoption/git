@@ -45,3 +45,7 @@ First save unsaved work or close and reopen the file, then use this command
 `git reset --hard` 
 
 Then use `git pull`
+
+## Force to push your code if you think it's ok but it is refusing to push 
+
+`git push -f origin master`
