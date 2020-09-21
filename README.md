@@ -38,3 +38,10 @@ If you want to add another remote url, at first you need to remove the current r
 `git push origin master` (This will push the source codes to the master branch)
 
 also `git push -u origin master`
+
+## Reset saved but uncommitted code 
+First save unsaved work or close and reopen the file, then use this command
+
+`git reset --hard` 
+
+Then use `git pull`
