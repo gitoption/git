@@ -49,3 +49,13 @@ Then use `git pull`
 ## Force to push your code if you think it's ok but it is refusing
 
 `git push -f origin master`
+
+## Create a new branch
+`git branch your_new_branch_name`
+
+## Go / switch to a branch
+`git checkout your_target_branch_name`
+
+## Create a new branch and switch to that branch
+
+`git checkout -b your_new_branch_name`
