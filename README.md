@@ -46,6 +46,10 @@ First save unsaved work or close and reopen the file, then use this command
 
 Then use `git pull`
 
+## Restore your currently changed files
+
+`git restore`
+
 ## Force to push your code if you think it's ok but it is refusing
 
 `git push -f origin master`
