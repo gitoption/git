@@ -65,3 +65,6 @@ Then use `git pull`
 ## Create a new branch and switch to that branch
 
 `git checkout -b your_new_branch_name`
+
+## Check the changes status
+`git status`
