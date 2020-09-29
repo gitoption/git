@@ -68,3 +68,13 @@ Then use `git pull`
 
 ## Check the changes status
 `git status`
+
+## Create an orphan branch 
+An ophan branch is completely a new branch without any git history or git commit. You need to commit add all the files to this branch before making a commit
+
+```
+git branch --orphan yourNewBranchNameHere
+git add -A
+git commit -m 'commitMessageHere'
+```
+
