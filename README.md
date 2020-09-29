@@ -73,8 +73,21 @@ Then use `git pull`
 An ophan branch is completely a new branch without any git history or git commit. You need to commit add all the files to this branch before making a commit
 
 ```
-git branch --orphan yourNewBranchNameHere
+git checkout --orphan yourNewBranchNameHere
 git add -A
 git commit -m 'commitMessageHere'
 ```
 
+## Remove git commit history from your repo
+```
+git checkout --orphan newbranch
+git add -A
+git commit -m 'firstcommit'
+git branch -D master
+git branch -m master
+git remote remove origin
+git init
+git remote add origin https://github.com/yourUsername/yourGithubRepoName.git
+git push -f origin master
+git gc --aggressive --prune=all
+```
