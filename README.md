@@ -111,6 +111,6 @@ Now do your regular work, if you still not set your new remote url, set it befor
 
 `git push origin master`
 
-Change the branch name if you need. 
+Change the branch name if you need. Set upstream as your own
 
 
