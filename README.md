@@ -99,7 +99,7 @@ git gc --aggressive --prune=all
 Shallow clone is just cloning a repository using `--depth`
 If you use Shallow clone to your local machine, it will not allow you to push your codes to your remote origin. You have to remove the shallow clone record to push your codes to remote repository. To do this just follow this :
 
-`git fetch --unshallow https://github.com/this_is_the_source_url_where_you_did_clone_it.git`
+`git fetch --unshallow https://github.com/this_is_the_source_url_from_where_you_did_clone_it.git`
 
 Now do your regular work, if you still have not set your new remote url, set it before to push 
 
