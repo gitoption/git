@@ -93,7 +93,7 @@ git push -f origin master
 git gc --aggressive --prune=all
 ```
 
-## Shallow update not allowed
+## Warning: Shallow update not allowed!
 ## How to remove shallow clone?
 ## What is shallow clone?
 Shallow clone is just cloning a repository using `--depth`
