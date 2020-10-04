@@ -101,14 +101,12 @@ If you use Shallow clone to your local machine, it will not allow you to push yo
 
 `git fetch --unshallow https://github.com/this_is_the_source_url_from_where_you_did_clone_it.git`
 
-Now do your regular work, if you still have not set your new remote url, set it before to push 
+Now do your regular work, if you still have not set your new remote url, set it before to push
+
 ```
 git remote remove origin
-
 git init
-
 git remote add origin https://github.com/your_new_repository_url_here.git
-
 git push origin master
 ```
 Change the branch name if you need. Set upstream as your own
