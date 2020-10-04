@@ -92,3 +92,25 @@ git remote add origin https://github.com/yourUsername/yourGithubRepoName.git
 git push -f origin master
 git gc --aggressive --prune=all
 ```
+
+## Shallow update not allowed
+## How to remove shallow clone?
+## What is shallow clone?
+Shallow clone is just cloning a repository using `--depth`
+If you use Shallow clone to your local machine, it will not allow you to push your codes to your remote origin. You have to remove the shallow clone record to push your codes to remote repository. To do this just follow this :
+
+`git fetch --unshallow theOldRepoUrlHereFromYouDidCloneIt`
+
+Now do your regular work, if you still not set your new remote url, set it before to push 
+
+`git remote remove origin`
+
+`git init`
+
+`git remote add origin yourNewRepoUrlHere.git`
+
+`git push origin master`
+
+Change the branch name if you need. 
+
+
