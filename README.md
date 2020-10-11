@@ -39,6 +39,9 @@ If you want to add another remote url, at first you need to remove the current r
 
 also `git push -u origin master`
 
+## Check recent change history
+`git log`
+
 ## Reset saved but uncommitted code 
 First save unsaved work or close and reopen the file, then use this command
 
