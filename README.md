@@ -116,4 +116,7 @@ git push origin master
 ```
 Change the branch name if you need. Set upstream as your own
 
+## Get update codes on local machine from the github repo
+`git pull` also `git pull origin master`
+
 
