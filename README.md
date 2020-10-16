@@ -1,9 +1,5 @@
 # git
-# Git documents
-
-## Note for your information: This project name is `git` and the username is `gitoption`
-
-***
+Git Documents by `gitoption`
 
 ## Clone a project from the github
 
@@ -21,7 +17,6 @@ Example add of this project url
 `git remote add origin https://github.com/gitoption/git.git`
 
 ## Remove remote url from the local machine
-
 `git remote remove origin`
 
 If you want to add another remote url, at first you need to remove the current remote url then to add new url
@@ -33,10 +28,8 @@ If you want to add another remote url, at first you need to remove the current r
 `git commit -m 'your commit message here'`
 
 ## Push your source code to the github
-`git push` (This will push the source codes on the current branch)
-
-`git push origin master` (This will push the source codes to the master branch)
-
+`git push` (This will push the source codes on the current branch) <br/>
+`git push origin master` (This will push the source codes to the master branch) <br/>
 also `git push -u origin master`
 
 ## Check recent commit history
@@ -48,28 +41,22 @@ also `git push -u origin master`
 ## Reset saved but uncommitted code 
 First save unsaved work or close and reopen the file, then use this command
 
-`git reset --hard` 
-
-Then use `git pull`
+`git reset --hard` <br/>Then use `git pull`
 
 ## Restore your currently changed files
-
 `git restore`
 
 ## Force to push your code if you think it's ok but it is refusing
-
 `git push -f origin master`
 
 ## Create a new branch
 `git branch your_new_branch_name`
 
 ## Go / switch to a branch
-`git checkout your_target_branch_name`
-
+`git checkout your_target_branch_name`<br/>
 `git switch your_target_branch_name`
 
 ## Create a new branch and switch to that branch
-
 `git checkout -b your_new_branch_name`
 
 ## Check the changes status
@@ -102,7 +89,7 @@ git gc --aggressive --prune=all
 ## Warning: Shallow update not allowed!
 ## How to remove shallow clone?
 ## What is shallow clone?
-Shallow clone is just cloning a repository using `--depth`
+Shallow clone is just cloning a repository using `--depth` <br/>
 If you use Shallow clone to your local machine, it will not allow you to push your codes to your remote origin. You have to remove the shallow clone record to push your codes to remote repository. To do this just follow this :
 ```
 git fetch --unshallow https://github.com/this_is_the_source_url_from_where_you_did_clone_it.git
@@ -118,5 +105,3 @@ Change the branch name if you need. Set upstream as your own
 
 ## Get update codes on local machine from the github repo
 `git pull` also `git pull origin master`
-
-
