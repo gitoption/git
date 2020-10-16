@@ -85,7 +85,7 @@ git commit -m 'commitMessageHere'
 ```
 
 ## Remove git commit history from your repo
-First make an orphan branch, then add all files, then commit the files to that orphan branch, then delete the master branch, then remove remote origin if exists, then git init, then add remote origin url, then push your code with force and finally remove all the old files, continue your work.....
+First make an orphan branch, then add all files, then commit the files to that orphan branch, then delete the master branch, then remove remote origin if exists, then git init, then add remote origin url, then push your code with force and finally remove all the old files, continue your work...
 ```
 git checkout --orphan newbranch
 git add -A
