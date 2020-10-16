@@ -1,7 +1,7 @@
 # git
 # Git documents
 
-## Note : this project name is `git` and the username is `gitoption`
+## Note before start: this project name is `git` and the username is `gitoption`
 
 ***
 
