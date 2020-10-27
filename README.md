@@ -9,6 +9,10 @@ Example clone of the this project:
 
 `git clone https://github.com/gitoption/git.git`
 
+## Git config on local machine
+`git config --global user.email 'youremailhere'` <br/>
+`git config --global user.name 'yournamehere'`
+
 ## Add remote url from local machine
 `git remote add origin https://github.com/githubusername/projectname.git`
 
